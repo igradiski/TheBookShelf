@@ -21,7 +21,7 @@ class HomeContainer extends Component {
 
     loadMore = () =>{
         let broj = this.props.books.list.length;
-        this.props.dispatch(getBook(1, 'desc', broj,this.props.books.list))
+        this.props.dispatch(getBook(2, 'desc', broj,this.props.books.list))
     }
     render() {
         return (
